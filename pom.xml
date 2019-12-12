@@ -26,6 +26,7 @@
         <module>microservicecloud-consumer-dept-feign</module>
         <module>dept-feign</module>
         <module>depment-feign</module>
+        <module>microservicecloud-provider-dept-hystrix-8001</module>
     </modules>
     <packaging>pom</packaging>
 

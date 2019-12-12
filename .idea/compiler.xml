@@ -11,9 +11,10 @@
         <module name="deptprovider8002" />
         <module name="deptprovider8001" />
         <module name="depmentfeign" />
-        <module name="eurekaserver7001" />
+        <module name="microservicecloudproviderdepthystrix8001" />
         <module name="publicapi" />
         <module name="eurekaserver7002" />
+        <module name="eurekaserver7001" />
         <module name="eurekaserver7003" />
       </profile>
     </annotationProcessing>

@@ -3,15 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/depment-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/dept-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dept-provider-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dept-provider-8003" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/dept-provider8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver7002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver7003" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservicecloud-consumer-dept-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-provider-dept-hystrix-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/port80" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/publicapi" charset="UTF-8" />
   </component>
