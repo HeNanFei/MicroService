@@ -10,9 +10,10 @@
         <module name="deptprovider8003" />
         <module name="deptprovider8002" />
         <module name="deptprovider8001" />
+        <module name="depmentfeign" />
+        <module name="eurekaserver7001" />
         <module name="publicapi" />
         <module name="eurekaserver7002" />
-        <module name="eurekaserver7001" />
         <module name="eurekaserver7003" />
       </profile>
     </annotationProcessing>
@@ -20,8 +21,10 @@
       <module name="api" target="1.8" />
       <module name="dept80" target="1.8" />
       <module name="deptcomsumer80" target="1.8" />
+      <module name="deptfeign" target="1.8" />
       <module name="eurekaserver-7001" target="1.8" />
       <module name="micros" target="1.8" />
+      <module name="microservicecloudconsumerdeptfeign" target="1.8" />
       <module name="portfor80" target="1.8" />
     </bytecodeTargetLevel>
   </component>

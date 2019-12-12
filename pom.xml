@@ -22,6 +22,10 @@
         <module>dept-provider8002</module>
         <module>dept-provider-8002</module>
         <module>dept-provider-8003</module>
+        <module>microservicecloud-consumer-dept-feign</module>
+        <module>microservicecloud-consumer-dept-feign</module>
+        <module>dept-feign</module>
+        <module>depment-feign</module>
     </modules>
     <packaging>pom</packaging>
 
