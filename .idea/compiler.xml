@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloudconsumerhystrixdashboard" />
         <module name="port80" />
         <module name="deptprovider8003" />
         <module name="deptprovider8002" />

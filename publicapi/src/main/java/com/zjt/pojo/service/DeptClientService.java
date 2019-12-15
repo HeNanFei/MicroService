@@ -1,5 +1,6 @@
 package com.zjt.pojo.service;
 
+import com.atguigu.springcloud.service.DeptClientServiceFallBack;
 import com.zjt.pojo.Dept;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.context.annotation.Bean;
@@ -10,7 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import java.util.List;
 
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+//@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+@FeignClient(value = "MICROSERVICECLOUD-DEPT",fallbackFactory = DeptClientServiceFallBack.class)
 public interface DeptClientService
 {
     @RequestMapping(value = "/dept/get/{id}",method = RequestMethod.GET)
