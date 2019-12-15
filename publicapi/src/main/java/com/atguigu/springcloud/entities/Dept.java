@@ -10,11 +10,10 @@ import lombok.Setter;
 import lombok.experimental.Accessors;
 
 
-
+@NoArgsConstructor
+//@AllArgsConstructor
 @Data
 @Accessors(chain=true)
-@NoArgsConstructor
-@AllArgsConstructor
 public class Dept implements Serializable// entity --orm--- db_table
 {
 	private Long 	deptno; // 主键
@@ -26,7 +25,6 @@ public class Dept implements Serializable// entity --orm--- db_table
 		super();
 		this.dname = dname;
 	}
-
-
+	
 	
 }
